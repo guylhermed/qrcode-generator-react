@@ -92,3 +92,37 @@ footer a {
     margin-top: 15px;
   }
 }
+
+.logo img {
+  animation: fromTop 0.8s 0.1s backwards;
+}
+
+.container input,
+.button-link,
+footer {
+  animation: fromBot 0.8s 0.1s backwards;
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fromBot {
+  from {
+    opacity: 0;
+    transform: translateY(+50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
