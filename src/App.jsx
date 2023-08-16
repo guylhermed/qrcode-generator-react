@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import QRCode from 'react-qr-code'
 import QRCodeLink from 'qrcode'
-import Logo from './assets/logo_eltok.png'
+import Logo from './assets/logo.png'
 import './App.css'
 
 function App() {
@@ -43,12 +43,12 @@ function App() {
           onChange={ (e) => handleQrcode(e) }
         />
 
-        <a className='button-link' href={qrcodeLink} download={'qrcode.png'}>Baixar o QrCode</a>
+        <a className='button-link' href={qrcodeLink} download={'qrcode.png'}>Download QRCode</a>
         
       </div>
 
       <footer>        
-          <a href="http://instagram.com/guylhermed" target="_blank">Feito com ❤️ por Guy</a>
+          <a href="http://instagram.com/guylhermed" target="_blank">by @guylhermed</a>
       </footer>
     </>
   )

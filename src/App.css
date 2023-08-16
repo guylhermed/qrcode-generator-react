@@ -6,13 +6,13 @@ body {
 }
 
 .logo img {
-  width: 100px;
+  width: 200px;
   margin-bottom: 20px;
 }
 
 .container {
   /* border: 1px solid yellow; */
-  margin-top: 23vh;
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
